@@ -1,0 +1,91 @@
+Package: radxa-repo-placeholder
+Version: 0.1.0
+Architecture: all
+Maintainer: "Radxa Computer Co., Ltd" <dev@radxa.com>
+Installed-Size: 9
+Section: libs
+Priority: optional
+Description: Radxa APT repo placeholder packages
+ This package provides placeholder packages for Radxa APT repo.
+ This is currently an empty package.
+Filename: pool/amlogic-bullseye/main/r/radxa-repo-placeholder/radxa-repo-placeholder_0.1.0_all.deb
+MD5sum: 812b0cc9287d9d5ae0d741dd51a396aa
+SHA1: a4108effb942088939b5861d058f89f290f95b4e
+SHA256: ebb88b953835fb6ad566333f4303dfa9b48e7506d7283427f43cb89b0f5c666c
+SHA512: 94d8edea17d7171f3fba8074101d9efb44b1a9f27f0511f21f23604b78b5c3b8c7b6c7e16730cfe20120e8f33cc531c764c22c229e041c06d1e43234ef7f3bf7
+Size: 1776
+
+Package: task-amlogic
+Source: radxa-profiles
+Version: 0.2.16
+Architecture: all
+Maintainer: "Radxa Computer Co., Ltd" <dev@radxa.com>
+Installed-Size: 10
+Section: libs
+Priority: optional
+Description: Metapackages for common Amlogic vendor packages
+ This package provides prebuilt packages from Amlogic that
+ provides a more optimized user experience.
+Filename: pool/amlogic-bullseye/main/r/radxa-profiles/task-amlogic_0.2.16_all.deb
+MD5sum: 3c0a458ca98cc617044a1046172cfd06
+SHA1: fee80de4fd62a354e384810e38142c0810fb3b04
+SHA256: 695bdb2615e87fee04ff4030182da93d5f173d8178f504be9e2cf00f6216f9b1
+SHA512: 65e1258155d9966f910be5af37d5c010ab6373426ad87249a78380e89adc5c7a797c16115a49faaa914e63dacc8dc5f0c117177a8feca37d4e0af4f2834bd3a2
+Size: 3076
+
+Package: task-amlogic
+Source: vendor-profiles
+Version: 0.3.2
+Architecture: all
+Maintainer: "Radxa Computer Co., Ltd" <dev@radxa.com>
+Installed-Size: 10
+Section: libs
+Priority: optional
+Description: Metapackages for common Amlogic vendor packages
+ This package provides prebuilt packages from Amlogic that
+ provides a more optimized user experience.
+Filename: pool/amlogic-bullseye/main/v/vendor-profiles/task-amlogic_0.3.2_all.deb
+MD5sum: 34be05ae030d504c5fcf1af91bf648e0
+SHA1: 933dabbcb2862415c2c61e7b1454040aad11a8c5
+SHA256: d550b725fcad84b7e139a6e4f3511e5d00694961c4cdd9d4979ef5a20e07868c
+SHA512: 79bfcc1fe9fe5398434697172e608c56c518561948958a0980789046f59a77ea4f8471ebc7448cac615917ef9bd4d42e0dee182692788d7e2f6c5522b27d388b
+Size: 3584
+
+Package: task-radxa-zero2
+Source: radxa-profiles
+Version: 0.2.16
+Architecture: all
+Maintainer: "Radxa Computer Co., Ltd" <dev@radxa.com>
+Installed-Size: 10
+Depends: task-amlogic
+Section: libs
+Priority: optional
+Description: Metapackages for Radxa ZERO 2
+ This package provides prebuilt packages from Amlogic that
+ provides a more optimized user experience.
+Filename: pool/amlogic-bullseye/main/r/radxa-profiles/task-radxa-zero2_0.2.16_all.deb
+MD5sum: 67e6a80eb1931d93ad3e2e39a8254cbc
+SHA1: c3334a82a47dab5bcbfdde632741d63f93611eab
+SHA256: 33a8e659d7e3a5a8a23d4d9a26c9790774e553b03d7e684d1c9fe2eeb8538fdb
+SHA512: 201a826302d2eb07ec369ebd65b4386790acb7cb1a6c3a0d918d4d5df94a36fc902e5fdd08fecd090703b2758a6daf3c691a5f86935a2a381dae0b2d52004aff
+Size: 3088
+
+Package: task-radxa-zero
+Source: radxa-profiles
+Version: 0.2.16
+Architecture: all
+Maintainer: "Radxa Computer Co., Ltd" <dev@radxa.com>
+Installed-Size: 10
+Depends: task-amlogic
+Section: libs
+Priority: optional
+Description: Metapackages for Radxa ZERO
+ This package provides prebuilt packages from Amlogic that
+ provides a more optimized user experience.
+Filename: pool/amlogic-bullseye/main/r/radxa-profiles/task-radxa-zero_0.2.16_all.deb
+MD5sum: 678fffc0e1bcc6de5ea9db96ed867474
+SHA1: d0e720235a44a34eccef8ef81e58657ddd5f33e8
+SHA256: 2ea0a739a2587fdabdf9822f8320abcb771aec308cc0ed02219723236822bb13
+SHA512: 202c15c9420cecd33ffb09fae106c8085104b8c70dec0765e06cae297adee10c372ffe93ac219362a472b8eddc5dbead8a380697d3b67d0dc57935e720584d42
+Size: 3084
+
